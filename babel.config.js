@@ -7,6 +7,9 @@ module.exports = function (api) {
       // https://github.com/goatandsheep/react-native-dotenv/issues/501
       // alternative solution proposed here
       // https://github.com/cchoi94/react-native-dotenv
+      // the current solution uses expo default which is automatic refer to the following
+      // https://docs.expo.dev/guides/environment-variables/
+      // https://github.com/bkeepers/dotenv/blob/c6e583a/README.md#what-other-env-files-can-i-use
       // plugins: [
       //   [
       //     "module:react-native-dotenv",
